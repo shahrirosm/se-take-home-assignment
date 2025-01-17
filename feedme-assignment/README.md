@@ -6,7 +6,7 @@ A Vue.js application that simulates a bot-based order processing system. The app
 
 ## 🚀 Live Demo
 
-[View Live Demo](your-demo-url) <!-- Add your deployed app URL -->
+[Live Demo](https://food-order-three-rho.vercel.app) <!-- Add your deployed app URL -->
 
 ## How It Works
 
