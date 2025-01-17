@@ -1,5 +1,39 @@
 # feedme-assignment
 
+# Bot Order Processing System
+
+A Vue.js application that simulates a bot-based order processing system. The application demonstrates real-time order management with normal and VIP priority queues, managed by a configurable number of processing bots.
+
+## 🚀 Live Demo
+
+[View Live Demo](your-demo-url) <!-- Add your deployed app URL -->
+
+## How It Works
+
+1. **Orders**
+   - Users can create Normal or VIP orders
+   - VIP orders are automatically prioritized in the queue
+   - Orders progress through states: pending → processing → complete
+
+2. **Bots**
+   - Each bot processes one order at a time
+   - Processing time is set to 10 seconds per order
+   - Bots automatically pick up new orders when idle
+   - Multiple bots can work simultaneously
+
+3. **Queue Management**
+   - Orders are processed in FIFO order with VIP priority
+   - Real-time updates of order status
+   - Visual distinction between normal and VIP orders
+
+## Technical Stack
+
+- Vue 3
+- TypeScript
+- Pinia (State Management)
+- CSS3 with scoped styling
+
+
 This template should help get you started developing with Vue 3 in Vite.
 
 ## Recommended IDE Setup
